@@ -1,0 +1,25 @@
+.circle_icon{
+    
+    height: 40px;
+    width: 40px;
+    border: solid;
+    border-width: 1px;
+    border-color: #d8d8d8;
+    border-radius: 20px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.circle_icon img{
+    height: 12px;
+    width: auto;
+}
+
+.circle_icon:hover{
+    border-color: #fff;
+    /* background-color: crimson; */
+    transition: 0.3s;
+}

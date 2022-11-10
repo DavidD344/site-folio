@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Red+Hat+Display:wght@400;500;600;700&display=swap');
+
+/* font-family: 'Red Hat Display', sans-serif; */
+/* font-family: 'Domine', serif; */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+
+}
+body{
+background-color: var(--main-back);
+
+}
+
+:root {
+    --green-light:#00AD7B;
+    --padding-lat: 5vw;
+    --text-color:#232340;
+    --main-back:#fff;
+    --nav-height: 17vh;
+}
+
+._pading_section{
+
+   padding-left: var(--padding-lat);
+    padding-right: var(--padding-lat);
+
+    /* padding-left: calc((100vw - 1296px) / 2);
+    padding-right: calc((100vw - 1296px) / 2); */ 
+}
+
+@media (min-width: 1440px){
+   
+._pading_section{   
+        padding-left: calc((100vw - 1296px) / 2);
+        padding-right: calc((100vw - 1296px) / 2);
+    }
+}
+
+@media (max-width:999px) { 
+
+    :root {
+       
+        --padding-lat: 8vw;
+       
+        --nav-height: 17vh;
+    }
+    
+}
+
+
+/* scroll */
+body::-webkit-scrollbar {
+    width: 9px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: whitesmoke;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #5468E7;;    /* color of the scroll thumb */
+    border-radius: 5px;       /* roundness of the scroll thumb */
+     /*border: 3px solid orange;  creates padding around scroll thumb */
+}
+
+/* scroll */

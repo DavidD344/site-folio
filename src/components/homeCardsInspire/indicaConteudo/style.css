@@ -1,0 +1,33 @@
+.indica_conteudo_box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+
+  
+    
+
+  /* 5vw */
+}
+.indica_conteudo_box img{
+    height: 24px;
+    width: 24px;
+}
+
+.indica_conteudo_box h4{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #5468E7;
+    margin-left: calc(230px - 24px);
+    margin-right: calc(230px - 24px);
+  
+}
+
+
+.indica_conteudo_box h4 span{
+    margin-right: 35px;
+
+}
+

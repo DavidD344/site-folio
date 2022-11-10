@@ -1,0 +1,31 @@
+.home_card_inspire{
+    background-color: #f8f6f8;
+
+    padding-top: 160px;
+    width: 100%;
+ 
+    
+  
+    background-image:url("../../../public/home/back/line-1.svg");
+   
+    background-repeat: no-repeat;
+    background-position:40%;
+        
+    background-size: auto 100%;
+}
+.home_card_inspire_head_box{
+
+    margin-left: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home_card_inspire_head_box h1{
+font-family: 'Red Hat Display', sans-serif;
+font-weight: 700;
+font-size: 6.4rem;
+color: #232340;
+width: 70%;
+
+}
+

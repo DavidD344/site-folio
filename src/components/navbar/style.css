@@ -1,0 +1,67 @@
+/* header{
+    margin-bottom: 190px;
+} */
+.navbar{
+
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+position: fixed;
+top:0;
+z-index: 10;
+
+}
+.navbar img{
+    
+    height: 5vh;
+   
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+}
+.navlist a {
+    text-decoration: none;
+    list-style: none;
+    color: #5468E7;
+}
+.navlist li{
+margin-left: 40px;
+font-family: 'Red Hat Display', sans-serif;
+font-weight: 700;
+font-size: 1.8rem;
+}
+
+#navantes {
+
+    height: calc(var(--nav-height) + 5vh);
+    transition: all 0.5s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.0);
+ 
+  }
+  
+#navdepois {
+    
+    height: var(--nav-height);
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+  
+    
+}
+
+@media (max-width:999px) { 
+    
+    .navlist{
+    display: none;
+    }
+    .navbar .button_padr{
+        display: none;
+    }
+
+    
+}
+

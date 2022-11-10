@@ -1,0 +1,22 @@
+/* header{
+    margin-bottom: 190px;
+} */
+
+.hamb_menu{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;  
+    display: none;  
+}
+
+.nav_active{
+    background-color: blue;
+}
+
+@media (max-width:999px) { 
+    
+    .hamb_menu{
+        display: inline;
+    }
+}

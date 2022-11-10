@@ -1,0 +1,19 @@
+.button_padr{
+width:180px;
+height:64px;
+border-radius:8px;
+color: white;
+border: none;
+font-family: 'Red Hat Display', sans-serif;
+font-weight: 600;
+font-size: 1.8rem;
+text-align: center;
+cursor: pointer;
+}
+.but_blue_dark{
+    background-color:#232340
+}
+.but_blue_white{
+    background-color:#5468e7
+}
+

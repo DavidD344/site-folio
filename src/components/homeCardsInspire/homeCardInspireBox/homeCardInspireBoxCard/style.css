@@ -1,0 +1,48 @@
+.home_card_inspire_box_card{
+
+    height: 480px;
+    width: 100%;
+    background-color: white;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.home_card_inspire_box_card div{
+
+
+    width: 128px;
+    height: 128px;
+    background-color: #d1ecfd;
+    border-radius: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_card_inspire_box_card p{
+
+font-family: 'Red Hat Display', sans-serif;
+font-weight: 700;
+font-size: 2.4rem;
+color: #5468E7;
+transition: 0.4s ease-in-out;
+}
+
+
+.card_active{
+    background-color: #5468E7;
+    height: 560px;
+    transition: 0.4s ease-in-out;
+}
+
+.text_active{
+    color: white !important;
+    transition: 0.4s ease-in-out;
+   
+}
